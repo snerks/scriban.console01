@@ -1,0 +1,11 @@
+public class SampleClassTemplate {
+    // Some content {{ SamplePropName }}
+    // Other content {{ Code }}
+
+    public string {{ SamplePropName }} { get; set; }
+
+    public int DoSomething()
+    {
+        {{ Code }}
+    }
+}
